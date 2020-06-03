@@ -40,7 +40,7 @@ jobs:
       run: npm install -g surge
       
     - name: Deploy Surge
-      run: surge ./build http://react-base-app-shumyla.surge.sh/ --token ${{ secrets SURGE_TOKEN }}
+      run: surge ./build http://react-base-app-shumyla.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
     
       
          
